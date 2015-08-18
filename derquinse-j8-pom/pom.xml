@@ -9,7 +9,7 @@
 	<artifactId>derquinse-j8-pom</artifactId>
 	<packaging>pom</packaging>
 	<name>Derquinse Projects Parent POM for Java 8</name>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<description>Parent POM for Derquinse Projects based on Java 8</description>
 	<url>https://github.com/derquinse/derquinse-j8/derquinse-j8-pom</url>
 	<organization>
@@ -112,6 +112,11 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-war-plugin</artifactId>
 					<version>2.6</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-shade-plugin</artifactId>
+					<version>2.4.1</version>
 				</plugin>
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
@@ -217,7 +222,7 @@
 			<dependency>
 				<groupId>org.testng</groupId>
 				<artifactId>testng</artifactId>
-				<version>6.9.4</version>
+				<version>6.9.6</version>
 				<exclusions>
 					<exclusion>
 						<groupId>junit</groupId>
