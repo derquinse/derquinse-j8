@@ -13,3 +13,7 @@ hs_err_pid*
 
 # Other
 .DS_Store
+
+# Idea
+.idea
+*.iml
